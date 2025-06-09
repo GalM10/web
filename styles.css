@@ -103,5 +103,26 @@
 
 }
 section{
-    margin: 100px;
+    margin: 200px;
+}
+
+
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(215, 211, 187);
+    text-align: center;
+    padding: 1.2rem;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(215, 211, 187);
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    z-index: 5;
+    margin-top: 50px;
 }
