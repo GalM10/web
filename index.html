@@ -10,45 +10,94 @@
 
 <body>
     <header>
-        <h1>Header</h1>
+        <h1>Расположение элементов на странице</h1>
     </header>
+
     <main>
-        <div class="container">
-            <div class="img-1">
-                <img src="minion.jpg" alt="Картинка 1" width="250" height="200">
+        <section>
+            <header>
+                <h2>Табличное форматирование</h2>
+            </header>
+            <div class="table-container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><img class="img" src="neutron.jpg" width="200" height="200" alt="img 1"></td>
+                            <td><img class="img" src="neutron.jpg" width="200" height="200" alt="img 2"></td>
+                            <td><img class="img" src="neutron.jpg" width="200" height="200" alt="img 3"></td>
+                        </tr>
+                        <tr>
+                            <td><img class="img" src="neutron.jpg" width="200" height="200" alt="img 4"></td>
+                            <td colspan="2" rowspan="4" class="text-cell">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img class="img" src="neutron.jpg" width="200" height="200" alt="img 5"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="img-2">
-                <img src="minion.jpg" alt="Картинка 2" width="250" height="200">
-            </div>
-            <div class="img-3">
-                <img src="minion.jpg" alt="Картинка 3" width="250" height="200">
-            </div>
+        </section>
 
-            <div class="img-4">
-                <img src="minion.jpg" alt="Картинка 4" width="250" height="200">
+        <section>
+            <header>
+                <h2>Форматирование позиционированием</h2>
+            </header>
+            <div class="positioning-container">
+                <img class="pos-1" src="neutron.jpg" width="200" height="200" alt="img 1">
+                <img class="pos-2" src="neutron.jpg" width="200" height="200" alt="img 2">
+                <img class="pos-3" src="neutron.jpg" width="200" height="200" alt="img 3">
+                <img class="pos-4" src="neutron.jpg" width="200" height="200" alt="img 4">
+                <img class="pos-5" src="neutron.jpg" width="200" height="200" alt="img 5">
+                <div class="positioning-text">
+                    <p>Это форматирование с помощью POSITION</p>
+                </div>
             </div>
-            <div class="img-5">
-                <img src="minion.jpg" alt="Картинка 5" width="250" height="200">
-            </div>
-            <div class="text">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                     Sunt nemo rerum iusto consequuntur reiciendis quas fugit,odit,
-                      ipsa veniam dolore distinctio a beatae blanditiis ratione?
-                       Totam minima quam ullam fuga?</p>
-            </div>
+        </section>
 
-        </div>
+
+        <section>
+            <header>
+                <h2>Flex форматирование</h2>
+            </header>
+            <div class="flex-container">
+                <div class="flex-column">
+                    <img class="pos-1-flex" src="neutron.jpg" width="200" height="200" alt="img 1">
+                    <img class="pos-4-flex" src="neutron.jpg" width="200" height="200" alt="img 4">
+                    <img class="pos-5-flex" src="neutron.jpg" width="200" height="200" alt="img 5">
+                </div>
+                <div class="flex-column">
+                    <div class="flex-row">
+                        <img class="pos-2-flex" src="neutron.jpg" width="200" height="200" alt="img 2">
+                        <img class="pos-3-flex" src="neutron.jpg" width="200" height="200" alt="img 3">
+                    </div>
+                    <div class="flex-text">
+                        <p>Это форматирование с помощью FLEX.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <header>
+                <h2>Grid форматирование</h2>
+            </header>
+            <div class="grid-container">
+                <img class="grid-item-1" src="neutron.jpg" width="200" height="200" alt="img 1">
+                <img class="grid-item-2" src="neutron.jpg" width="200" height="200" alt="img 2">
+                <img class="grid-item-3" src="neutron.jpg" width="200" height="200" alt="img 3">
+                <img class="grid-item-4" src="neutron.jpg" width="200" height="200" alt="img 4">
+                <img class="grid-item-5" src="neutron.jpg" width="200" height="200" alt="img 5">
+                <div class="grid-text">
+                    <p>Это форматирование с помощью GRID.</p>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
-        <div class="text-content">
-            <div class="text-wrapper">
-                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis eum beatae provident magnam,
-                    quisquam nobis.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium omnis corrupti totam
-                    temporibus cupiditate debitis id voluptatum in rem neque quia.</p>
-                <p>Lorem ipsum dolor sit..</p>
-            </div>
-        </div>
+        <p>&copy; Jimmy Neutron, <time datetime="2025">2025 г.</time></p>
     </footer>
 </body>
 
